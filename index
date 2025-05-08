@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COREMAK | Soluciones Industriales</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+    header, footer { background: #1e1e1e; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { background: #004e89; color: #fff; padding: 100px 20px; text-align: center; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 20px; }
+    .hero button { padding: 10px 20px; background: #ffc857; border: none; font-weight: bold; cursor: pointer; }
+    section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+    h2 { color: #023047; margin-bottom: 20px; text-align: center; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { padding: 20px; border: 1px solid #ccc; border-radius: 8px; background: #f9f9f9; }
+    footer p { font-size: 0.9rem; }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>COREMAK</h1>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#productos">Productos</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Soluciones industriales a la medida</h1>
+    <p>Empaques, mecanizados, fundición y más</p>
+    <button onclick="location.href='#servicios'">Ver más</button>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="grid">
+      <div class="card"><strong>Repuestos a la medida</strong><br>Fabricación y mantenimiento para maquinaria industrial.</div>
+      <div class="card"><strong>Empaquetaduras y empaques</strong><br>Fabricados con nitrilo, EPDM, silicona, vitón.</div>
+      <div class="card"><strong>Piezas metálicas mecanizadas</strong><br>Soluciones personalizadas en metal.</div>
+      <div class="card"><strong>Polímeros mecanizados</strong><br>Nylon, teflón, polietileno a medida.</div>
+      <div class="card"><strong>Fundición y resortes</strong><br>Compresión, torsión, en hierro, bronce y aluminio.</div>
+    </div>
+  </section>
+
+  <section id="productos">
+    <h2>Productos</h2>
+    <div class="grid">
+      <div class="card">Perfiles, juntas, orings, cordones</div>
+      <div class="card">Barras y láminas de teflón, nylon, polietileno</div>
+      <div class="card">Empaques estándar e intercambiadores</div>
+    </div>
+  </section>
+
+  <section id="clientes">
+    <h2>Clientes</h2>
+    <p style="text-align:center">Nuestros productos respaldan a empresas líderes de la industria colombiana.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Compromiso</h2>
+    <p style="text-align:center">En COREMAK estamos comprometidos con el progreso de la industria colombiana.</p>
+  </section>
+
+  <footer>
+    <p>COREMAK S.A.S | NIT 901.903.213-6</p>
+    <p>&copy; 2025 Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
